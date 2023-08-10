@@ -41,7 +41,7 @@ session = Session.builder.configs(connection_parameters).create()
 st.set_page_config(page_title='ICP ASG 3', page_icon="favicon.ico")
 
 # Tabs set-up
-tab1, tab2, tab3, tab4, tab5 = st.tabs(['SW', 'Ernest', 'Gwyneth', 'GF', 'KK'])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(['SW', 'Ernest', 'Predicting Customer Churn', 'GF', 'KK'])
 
 with tab1:
     st.title('Overall')
