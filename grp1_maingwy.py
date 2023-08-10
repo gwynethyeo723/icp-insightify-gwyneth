@@ -58,7 +58,7 @@ with tab3:
     st.write("In this web tab, Tasty Bytes management will have the ability to obtain details about churn customers across various customer segments. They can **leverage the insights and advice provided to take proactive measures** aimed at retaining these customers in order for Tasty Bytes to **reach their goal** of increasing Net Promoter Score (NPS) from 3 to 40 by year end 2023. By **effectively addressing churn**, this will ensure that customers are engaged and shows strong loyalty and satisfaction towards Tasty Bytes, signifying that the NPS score is **poised to increase**.")
     st.write("Additionally, the management will also be able to **experiment** with customer's details to **predict** whether they will be likely to churn or not.")
     st.write("Customers are likely to churn when their predicted days to next purchase is **more than 14 days**.")
-    st.header('Details of Churn Customers :face_with_monocle:')
+    st.header('Details of Customers that are Likely to Churn :face_with_monocle:')
 
     # loading of dataset 
     def load_next_purchase_cust_seg():
