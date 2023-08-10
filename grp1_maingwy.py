@@ -128,7 +128,7 @@ with tab3:
     csv = convert_df(cust_to_show)
 
     # give advice on how to retain the churn customers
-    st.subheader("Advice to retain the churn customers :bulb:")
+    st.subheader("Advice to retain customers that are likely to churn :bulb:")
     if cust_seg_option == "High Value":
         st.write("Since these customers are of high value, it will be **crucial** to implement targeted retention strategies to address their potential churn as they **contribute to a significant portion of Tasty Bytes sales**.")
         st.write("The reasons behind **why** these customers are showing signs of potential churn despite contributing so much to Tasty Bytes’ sales and making frequent orders should be **investigated**.")
