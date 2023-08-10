@@ -155,7 +155,7 @@ with tab3:
 
 
 
-    st.header('Predicting whether customers churn :face_with_one_eyebrow_raised:')
+    st.header('Predicting whether customer is likely to churn :face_with_one_eyebrow_raised:')
 
     # loading model
     with open('NextPurchase2.pkl', 'rb') as file:
